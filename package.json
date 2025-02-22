@@ -20,6 +20,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
+    "build:watch": "npm run build:watch",
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
