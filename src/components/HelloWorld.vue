@@ -2,12 +2,16 @@
 defineProps<{
   msg: string
 }>()
+
+const handleClick = () => {
+  alert("Hello World")
+}
 </script>
 
 <template>
   <div class="greetings">
     <h1 class="text-yellow bg-red">{{ msg }} 222</h1>
-    <el-button>el-button</el-button>
+    <el-button @click="handleClick">el-button</el-button>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
