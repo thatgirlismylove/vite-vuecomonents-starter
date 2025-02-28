@@ -1,4 +1,4 @@
-import presetWind from '@unocss/preset-wind'
+import { presetWind } from 'unocss'
 import { defineConfig } from 'unocss'
 
 export default defineConfig({
