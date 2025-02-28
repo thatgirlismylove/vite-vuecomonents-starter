@@ -20,3 +20,5 @@ pnpm link ../
 在使用该包的项目目录执行 npm link <package-name>，会将全局的软链接映射到当前项目的 node_modules 中。
 
 在 playground 的 node_modules 目录会出现 ‘vue-vuecomonents’ 依赖（出现主要项目打包的name）。
+
+package.json 中 peerDependencies, 声明用户需要安装的依赖以及版本，组件库本身不打包 vue 等库。
